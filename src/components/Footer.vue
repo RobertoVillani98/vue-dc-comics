@@ -169,7 +169,7 @@ export default {
             display: flex;
 
              .col{
-                padding: 35px 25px 35px 0;
+                padding: 15px;
 
                 h4{
                     color: #fff;
