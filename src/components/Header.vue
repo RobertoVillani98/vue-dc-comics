@@ -33,17 +33,19 @@ export default {
 header {
   margin-top: 20px;
   text-align: center;
-  display: flex;
   margin-bottom: 20px;
 }
 .container {
   width: 80%;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
 }
 .logo {
   display: flex;
   img {
     height: 70px;
+    margin-right: 200px;
   }
 }
 nav {
@@ -54,14 +56,14 @@ nav {
     li a {
       text-transform: uppercase;
       font-weight: 500;
-      font-size: 18px;
+      font-size: 14px;
       display: inline-block;
       padding: 15px 20px;
       text-decoration: none;
       color: #000;
       &.active,
       &:hover {
-        background-color: $mainColor;
+        border-bottom: 4px solid $mainColor;
       }
     }
   }
