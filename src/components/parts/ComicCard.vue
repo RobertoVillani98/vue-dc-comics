@@ -22,7 +22,7 @@ export default {
 
   img {
     width: 100%;
-    max-height: 180px;
+    // max-height: 180px;
     object-fit: cover;
     object-position: top;
   }
