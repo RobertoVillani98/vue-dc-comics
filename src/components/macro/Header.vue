@@ -2,7 +2,7 @@
   <header>
     <div class="container">
       <div class="logo">
-        <img src="../assets/img/dc-logo.png" alt="Logo dc"/>
+        <img src="../../assets/img/dc-logo.png" alt="Logo dc" />
         <nav>
           <ul>
             <li><a href="#">Characters</a></li>
@@ -24,12 +24,12 @@
 
 <script>
 export default {
-    name:'Header'
-}
+  name: "Header",
+};
 </script>
 
 <style lang="scss" scoped>
-@import '../assets/style/partials/variables.scss';
+@import "../../assets/style/partials/variables.scss";
 header {
   margin-top: 20px;
   text-align: center;
@@ -68,5 +68,4 @@ nav {
     }
   }
 }
-
 </style>

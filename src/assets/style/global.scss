@@ -27,3 +27,25 @@ ul {
 a {
     text-decoration: none;
 }
+
+.btn {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    
+    &-blue {
+        @extend .btn;
+        color: white;
+        background-color: $mainColor;
+        
+    }
+    
+    &.small {
+        padding: 10px 50px;
+    }
+
+    &.big {
+        font-size: 25px;
+        padding: 10px 20px;
+    }
+}
